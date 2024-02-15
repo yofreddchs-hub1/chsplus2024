@@ -1,0 +1,22 @@
+{
+    "app":"sistemachs",
+    "http2":"http://192.168.10.60:5005",
+    "http":"http://raqlan.com:5005",
+    "http1":"http://82.223.217.69:5005",
+    "https":"https://chsplus.onrender.com",
+    "cloud_name":"dtu1dwuwf",
+    "carpeta":"chsplus",
+    "models":[
+                "sistemachs_Eliminado",
+                "sistemachs_Agencia",
+                "sistemachs_Cliente","sistemachs_Proveedor",
+                "sistemachs_Empaque", "sistemachs_Formula",
+                "sistemachs_Inventariomp","sistemachs_Inventariopt",
+                "sistemachs_Egresoem","sistemachs_Egresomp",
+                "sistemachs_Egresopt","sistemachs_Ingresoem",
+                "sistemachs_Ingresomp","sistemachs_Ingresopt",
+                "sistemachs_Produccion", "sistemachs_Venta",
+                "sistemachs_Orden_Venta","sistemachs_Lista_Venta",
+                "sistemachs_User_api"  
+            ]
+}

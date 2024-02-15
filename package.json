@@ -1,0 +1,108 @@
+{
+  "name": "chs2023",
+  "version": "0.1.1",
+  "private": true,
+  "productName": "CHS-PLUS",
+  "main": "public/electron.js",
+  "homepage": "./",
+  "build": {
+    "appId": "com.chs_2023",
+    "win": {
+      "target": "nsis",
+      "icon": "public/logo256.png"
+    }
+  },
+  "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.11.2",
+    "@date-io/jalaali": "^2.16.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/lab": "^5.0.0-alpha.114",
+    "@mui/material": "^5.14.16",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.4",
+    "@mui/styles": "^5.11.2",
+    "@mui/x-data-grid": "^5.17.17",
+    "@mui/x-data-grid-generator": "^5.17.20",
+    "@mui/x-date-pickers": "^5.0.13",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.10.3",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "bson-objectid": "^2.0.4",
+    "concurrently": "^7.6.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.7",
+    "electron-is-dev": "^2.0.0",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.0",
+    "jspdf": "^2.5.1",
+    "moment": "^2.29.4",
+    "moment-jalaali": "^0.9.6",
+    "nedb": "^1.8.0",
+    "nedb-promises": "^6.2.1",
+    "notistack": "^2.0.8",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-json-editor-ajrm": "^2.5.13",
+    "react-qr-code": "^2.0.11",
+    "react-scripts": "5.0.1",
+    "react-swipeable-views": "^0.14.0",
+    "socket.io-client": "^4.5.4",
+    "styled-components": "^6.1.0",
+    "video-react": "^0.16.0",
+    "wait-on": "^7.0.1",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "react-start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "electron": "concurrently \"SET BROWSER=none && npm run react-start\" \"wait-on http://localhost:3001 && electron .\"",
+    "release": "react-app-rewired build && electron-builder --publish=always"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:react-hooks/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "cross-env": "^7.0.3",
+    "crypto-browserify": "^3.12.0",
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}

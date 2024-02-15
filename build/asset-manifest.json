@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7baf23a2.css",
+    "main.js": "./static/js/main.b5a5730d.js",
+    "static/js/498.16c7b940.chunk.js": "./static/js/498.16c7b940.chunk.js",
+    "static/js/703.1b86017b.chunk.js": "./static/js/703.1b86017b.chunk.js",
+    "static/js/513.5e3cba1f.chunk.js": "./static/js/513.5e3cba1f.chunk.js",
+    "static/js/787.3f5cfa00.chunk.js": "./static/js/787.3f5cfa00.chunk.js",
+    "static/media/enconstruccion.png": "./static/media/enconstruccion.9691ae2ce76faa7c2a4e.png",
+    "static/media/noexiste.png": "./static/media/noexiste.d877c0c995ea4789a416.png",
+    "static/media/esperarreporte.png": "./static/media/esperarreporte.a0f23aa67ac25e8a33bc.png",
+    "static/media/logo512.png": "./static/media/logo512.efda56735800fa17b8b3.png",
+    "static/media/trompo.png": "./static/media/trompo.97248a829604041def39.png",
+    "static/media/logo1.png": "./static/media/logo1.d47c58ffe91b785c8dcd.png",
+    "static/media/sindatos.png": "./static/media/sindatos.ebd485b499612ba2ef76.png",
+    "static/media/logor.png": "./static/media/logor.6fdd85b96ef8ddeace43.png",
+    "index.html": "./index.html",
+    "main.7baf23a2.css.map": "./static/css/main.7baf23a2.css.map",
+    "main.b5a5730d.js.map": "./static/js/main.b5a5730d.js.map",
+    "498.16c7b940.chunk.js.map": "./static/js/498.16c7b940.chunk.js.map",
+    "703.1b86017b.chunk.js.map": "./static/js/703.1b86017b.chunk.js.map",
+    "513.5e3cba1f.chunk.js.map": "./static/js/513.5e3cba1f.chunk.js.map",
+    "787.3f5cfa00.chunk.js.map": "./static/js/787.3f5cfa00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7baf23a2.css",
+    "static/js/main.b5a5730d.js"
+  ]
+}

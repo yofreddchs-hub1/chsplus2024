@@ -1,0 +1,19 @@
+.par {
+  font-size: 14px;
+  background-color: rgb(48, 48, 48);
+}
+
+.impar {
+  font-size: 14px;
+  background-color: rgb(32, 32, 32);
+}
+
+.components-table-demo-control-bar .ant-form-item {
+  margin-right: 16px !important;
+  margin-bottom: 8px !important;
+  background-color: black;
+}
+/* .columnas{
+  
+  background-color: blueviolet;  
+} */
